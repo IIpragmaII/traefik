@@ -1,9 +1,6 @@
 name: Validate
 
-on:
-  pull_request:
-    branches:
-      - '*'
+on: [push]
 
 env:
   GO_VERSION: '1.23'
